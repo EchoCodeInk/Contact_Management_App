@@ -1,0 +1,40 @@
+﻿using Data_Access_Layer;
+using Modele;
+
+namespace Business_Logic_Layer
+{
+    public class Controleur : IBLL
+    {
+<<<<<<< HEAD
+        public void AfficherProfil(Contact contactAAfficher)
+        {
+            ConnectionALaBD.AfficherProfil(contactAAfficher);
+        }
+
+        public void CreationDeCompte(Membre newMembre)
+        {
+            ConnectionALaBD.CreationDeCompte(newMembre);
+        }
+
+        public void CreationDeContact(Contact newContact)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void ModificationDeContact(Contact contactAMondifier)
+        {
+            ConnectionALaBD.ModificationDeContact(contactAMondifier);
+        }
+
+
+        public bool VerificationUtilisateur(Membre verifieMembre)
+        {
+            bool retourMethode;
+            retourMethode = ConnectionALaBD.VerificationUtilisateur(verifieMembre);
+            return retourMethode;
+        }
+=======
+        ConnectionALaBD m ;
+>>>>>>> c9e7ae981b5ef1163614271bfb685f5d7816edc6
+    }
+}

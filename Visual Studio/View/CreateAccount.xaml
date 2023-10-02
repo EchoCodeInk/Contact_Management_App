@@ -1,0 +1,34 @@
+﻿<Window x:Class="View.CreateAccount"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:View"
+        mc:Ignorable="d"
+        Title="CreateAccount" Height="700" Width="450">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,-45,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Width="477" Height="63" FontWeight="Bold"><Run Text="Entrer vos informations pour creer votre "/><LineBreak/><Run Text="compte :"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="39,73,0,0" TextWrapping="Wrap" Text="USERNAME :" VerticalAlignment="Top" Height="32" Width="122" FontSize="16" Opacity="0.6" FontWeight="Bold" RenderTransformOrigin="0.568,-0.475"/>
+        <TextBox x:Name="userName" HorizontalAlignment="Left" Height="42" Margin="146,63,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" Opacity="0.5" FontSize="22" RenderTransformOrigin="0.186,-0.25"/>
+        <TextBlock HorizontalAlignment="Left" Margin="39,131,0,0" TextWrapping="Wrap" Text="PASSWORD :" VerticalAlignment="Top" Height="32" Width="122" FontSize="16" Opacity="0.6" FontWeight="Bold"/>
+        <TextBox x:Name="password" HorizontalAlignment="Left" Margin="146,121,0,0" VerticalAlignment="Top" Width="242" Height="42" Opacity="0.5" FontSize="22" AutomationProperties.IsRequiredForForm="True" RenderTransformOrigin="0.496,-0.262"/>
+        <TextBlock HorizontalAlignment="Left" Margin="39,187,0,0" TextWrapping="Wrap" Text="PRENOM :" VerticalAlignment="Top" Height="32" Width="122" FontSize="16" Opacity="0.6" FontWeight="Bold" RenderTransformOrigin="0.568,-0.475"/>
+        <TextBox x:Name="prenom" HorizontalAlignment="Left" Height="42" Margin="146,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" Opacity="0.5" FontSize="22" RenderTransformOrigin="0.186,-0.25"/>
+        <TextBlock HorizontalAlignment="Left" Margin="39,244,0,0" TextWrapping="Wrap" Text="NOM :" VerticalAlignment="Top" Height="32" Width="122" FontSize="16" Opacity="0.6" FontWeight="Bold" RenderTransformOrigin="0.568,-0.475"/>
+        <TextBox x:Name="nom" HorizontalAlignment="Left" Height="42" Margin="146,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" Opacity="0.5" FontSize="22" RenderTransformOrigin="0.186,-0.25"/>
+        <TextBlock HorizontalAlignment="Left" Margin="39,301,0,0" TextWrapping="Wrap" Text="ADRESSE :" VerticalAlignment="Top" Height="32" Width="122" FontSize="16" Opacity="0.6" FontWeight="Bold" RenderTransformOrigin="0.568,-0.475"/>
+        <TextBox x:Name="adresse" HorizontalAlignment="Left" Height="42" Margin="146,291,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" Opacity="0.5" FontSize="22" RenderTransformOrigin="0.186,-0.25"/>
+        <TextBlock HorizontalAlignment="Left" Margin="39,360,0,0" TextWrapping="Wrap" Text="VILLE :" VerticalAlignment="Top" Height="32" Width="122" FontSize="16" Opacity="0.6" FontWeight="Bold" RenderTransformOrigin="0.568,-0.475"/>
+        <TextBox x:Name="ville" HorizontalAlignment="Left" Height="42" Margin="146,350,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" Opacity="0.5" FontSize="22" RenderTransformOrigin="0.186,-0.25"/>
+        <TextBlock HorizontalAlignment="Left" Margin="39,418,0,0" TextWrapping="Wrap" Text="ZIP CODE :" VerticalAlignment="Top" Height="32" Width="122" FontSize="16" Opacity="0.6" FontWeight="Bold" RenderTransformOrigin="0.568,-0.475"/>
+        <TextBox x:Name="zipCode" HorizontalAlignment="Left" Height="42" Margin="146,408,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" Opacity="0.5" FontSize="22" RenderTransformOrigin="0.186,-0.25"/>
+        <TextBlock HorizontalAlignment="Left" Margin="39,475,0,0" TextWrapping="Wrap" Text="TELEPHONE :" VerticalAlignment="Top" Height="32" Width="122" FontSize="16" Opacity="0.6" FontWeight="Bold" RenderTransformOrigin="0.568,-0.475"/>
+        <TextBox x:Name="telephone" HorizontalAlignment="Left" Height="42" Margin="146,465,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" Opacity="0.5" FontSize="22" RenderTransformOrigin="0.186,-0.25" Text="(555)666-7777" />
+        <TextBlock HorizontalAlignment="Left" Margin="39,534,0,0" TextWrapping="Wrap" Text="MAIL :" VerticalAlignment="Top" Height="32" Width="122" FontSize="16" Opacity="0.6" FontWeight="Bold" RenderTransformOrigin="0.568,-0.475"/>
+        <TextBox x:Name="mail" HorizontalAlignment="Left" Height="42" Margin="146,524,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" Opacity="0.5" FontSize="22" RenderTransformOrigin="0.186,-0.25"/>
+        <Button Content="S'INSCRIRE" HorizontalAlignment="Left" VerticalAlignment="Top" Width="166" Margin="39,617,0,0" Height="42" Background="#FF30ABCF" FontWeight="Bold" Click="ButtonCreerCompte"/>
+        <Button Content="FERMER" HorizontalAlignment="Left" VerticalAlignment="Top" Width="166" Margin="222,617,0,0" Height="42" Background="#FF30ABCF" FontWeight="Bold" Click="ButtonFermer"/>
+        <Label x:Name="MessageTelephoneErreur" Content="" HorizontalAlignment="Left" Margin="39,571,0,0" VerticalAlignment="Top" Width="361" Height="41" FontSize="16" FontWeight="Bold" FontStyle="Italic"/>
+
+    </Grid>
+</Window>
