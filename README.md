@@ -1,6 +1,6 @@
 # Contact Manager App
 
-[image](https://github.com/EchoCodeInk/Contact_Management_App/assets/143127630/55e58306-b81a-429e-9e43-2c51a99a9716)
+![image](https://github.com/EchoCodeInk/Contact_Management_App/assets/143127630/55e58306-b81a-429e-9e43-2c51a99a9716)
 
 Welcome to the Contact Manager App, a comprehensive application for managing your contacts efficiently.
 
