@@ -45,7 +45,7 @@ To use the Contact Manager App on your system, follow these steps:
 
 ## Contributors
 
-- [Evan Cholette](https://github.com/EchoCodeInk) - Lead Developer
+- [Evan Cholette](https://github.com/EchoCodeInk) - Developer
 - [Taoufik Boussemousse](https://github.com/collaboratorusername) - Developer
 
 Feel free to contribute to the project or report any issues you encounter.
